@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - SS Infotech</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #005fa3;
+      padding: 10px 0;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .contact-section {
+      flex: 1;
+      margin: 10px;
+      padding: 20px;
+      background-color: #e9f1fb;
+      border-left: 5px solid #0077cc;
+      border-radius: 10px;
+      min-width: 250px;
+    }
+
+    .contact-info {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .contact-info i {
+      margin-right: 10px;
+      font-size: 1.5em;
+      color: #0077cc;
+    }
+
+    .map-container {
+      margin-top: 20px;
+      height: 400px;
+      width: 100%;
+      border: 2px solid #0077cc;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .whatsapp-link {
+      margin-top: 20px;
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .whatsapp-link:hover {
+      background-color: #128C7E;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #0077cc;
+      color: white;
+      position: relative;
+      margin-top: 20px;
+    }
+
+    .contact-info a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    /* WhatsApp Icon styling */
+    .whatsapp-icon {
+      font-size: 1.5em;
+      color: #25D366;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .contact-section {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SS Infotech</h1>
+    <p>Computer & Laptop Repair | Sales | AMC | Networking | Printer Services</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="contact-section">
+      <h3>Head Office - Jogeshwari East, Mumbai</h3>
+      <div class="contact-info">
+        <i class="fas fa-map-marker-alt"></i>
+        <p>C01, Sanjay Nagar, Old Kabrastan Road,<br>
+           Meghwadi, Jogeshwari East,<br>
+           Mumbai, Maharashtra 400060</p>
+      </div>
+      <div class="contact-info">
+        <i class="fas fa-phone"></i>
+        
+      </div>
+      <div class="contact-info">
+        <i class="fas fa-phone"></i>
+        <p>Contact Number: <a href="tel:+912231565515">022-31565515</a></p>
+      </div>
+      <div class="contact-info">
+        <i class="fas fa-envelope"></i>
+        <p>Email: <a href="mailto:ssinfotech01mumbai@gmail.com">ssinfotech01mumbai@gmail.com</a></p>
+      </div>
+
+      <div class="map-container">
+        <!-- Google Map Embed for Head Office -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.874906343342!2d72.85275531526784!3d19.163032237210712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7f13e59413d%3A0x64cf96fa8b8bc927!2sC01%2C%20Sanjay%20Nagar%2C%20Old%20Kabrastan%20Road%2C%20Meghwadi%2C%20Jogeshwari%20East%2C%20Mumbai%2C%20Maharashtra%20400060!5e0!3m2!1sen!2sin!4v1681725062680!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+
+    <div class="contact-section">
+      <h3>Branch Office - Nalasopara East</h3>
+      <div class="contact-info">
+        <i class="fas fa-map-marker-alt"></i>
+        <p>E04, Prabhat Colony, Pragati Nagar,<br>
+           90 Feet Road, Near Thakur Vidya Mandir School,<br>
+           Nalasopara East, Palghar, Maharashtra 401209</p>
+      </div>
+      <div class="contact-info">
+        <i class="fas fa-phone"></i>
+        <p>Mobile: <a href="tel:+919867000216">+91-9867000216</a>
+            <a href="https://wa.me/+919867000216" class="whatsapp-icon" target="_blank"><i class="fab fa-whatsapp"></i></a></p>
+      </div>
+      <div class="contact-info">
+        <i class="fas fa-envelope"></i>
+        <p>Email: <a href="mailto:ssingh1681998@gmail.com">ssingh1681998@gmail.com</a></p>
+      </div>
+
+      <div class="map-container">
+        <!-- Google Map Embed for Branch Office -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.5933836009377!2d72.90751981528645!3d19.433705333212847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c792dd592771%3A0x591cf41b7da5f1f5!2sE04%2C%20Prabhat%20Colony%2C%20Pragati%20Nagar%2C%2090%20Feet%20Road%2C%20Near%20Thakur%20Vidya%20Mandir%20School%2C%20Nalasopara%20East%2C%20Palghar%2C%20Maharashtra%20401209!5e0!3m2!1sen!2sin!4v1681724914961!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+
+  </div>
+
+  <a href="https://wa.me/+919867000216" class="whatsapp-link" target="_blank">
+    Chat with us on WhatsApp
+  </a>
+
+  <footer>
+    <p>&copy; 2025 SS Infotech. All rights reserved.</p>
+  </footer>
+
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
